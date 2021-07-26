@@ -1,0 +1,64 @@
+.btn {
+  outline: none;
+  border-radius: 30px;
+  color: $color-white;
+  border: 0;
+  cursor: pointer;
+  background-color: $color-primary;
+
+  &_badge{
+    width: 165.22px;
+    height: 41.3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: $color-white;
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+  }
+
+  &_round {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    color: $color-white;
+    background-color: $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_medium {
+    padding: 13px 36px;
+  }
+
+  &_large {
+    padding: 13px 83px;
+  }
+
+  &_gigantic {
+    padding: 18px 75px;
+  }
+}
+
+
+.custom-scrollbar {
+  &::-webkit-scrollbar {
+    width: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.015);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #E0E0E0;
+    border-radius: 8px;
+  }
+  &:hover::-webkit-scrollbar-thumb {
+    background-color: #BDBDBD;
+  }
+  &:hover::-webkit-scrollbar-track {
+    background: rgba(0,0,0,.05);
+  }
+}
